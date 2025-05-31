@@ -51,7 +51,7 @@ Ib = np.conj(Sl_d)/np.conj(Vb)  #Corrente na carga
 I_comp = I_l-Ib                 #Novo valor da corrente de compensação
 
 """Laço"""
-err = 5e-6 #Erro projetado
+err = 1e-7 #Erro projetado
 i = 0      #Contagem de iterações
 while 1:
     i = i+1
